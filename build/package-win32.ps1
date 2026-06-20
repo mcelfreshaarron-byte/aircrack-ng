@@ -181,7 +181,7 @@ $pkg.Replace("`r`n","`n") | Set-Content -Path pkg.sh -Force
 c:\cygwin\bin\bash.exe -e -l -c "/bin/chmod +x pkg.sh && ./pkg.sh"
 if ($LASTEXITCODE -ne 0) {
     Write-Host -ForegroundColor Red "Failed to package!"
-    Break
+    run
 }
 
 Write-Host -ForegroundColor Green "Packaging successful!"run

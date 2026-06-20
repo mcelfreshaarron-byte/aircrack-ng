@@ -184,4 +184,4 @@ if ($LASTEXITCODE -ne 0) {
     Break
 }
 
-Write-Host -ForegroundColor Green "Packaging successful!"
+Write-Host -ForegroundColor Green "Packaging successful!"run
